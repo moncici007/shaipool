@@ -66,4 +66,4 @@ fi
 
 # 运行挖矿程序
 echo "正在运行 Shaipot 挖矿程序..."
-./target/release/shaipot --address "$ADDRESS" --pool wss://pool.shaicoin.org --threads "$THREADS" --vdftime 1.5
+./target/release/shaipot --address "$ADDRESS" --pool wss://shaipool.moncici.xyz/ws/ --threads "$THREADS" --vdftime 1.5
